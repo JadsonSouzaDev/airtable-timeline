@@ -31,7 +31,7 @@
 ## 🧪 How I would test this with more time
 
 - I would create **unit tests** for each main component.
-- I would also implement integration tests with **usage scenarios** involving manipulation of the provided data (`timelineItems.js`).
+- I would also implement integration tests with **usage scenarios** involving manipulation of the provided data (`timelineItems.ts`).
 - Scenarios like adding, editing, moving, and removing items from the timeline would be covered.
 
 ---

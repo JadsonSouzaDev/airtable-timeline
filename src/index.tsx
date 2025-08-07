@@ -1,9 +1,8 @@
 import { useState, useEffect } from "react";
 import ReactDOM from "react-dom/client";
-
 import { Header, MonthSelector, Lanes, DaysHeader } from "./components";
-import timelineItems from "./timelineItems";
-import { assignLanes, getMonths } from "./assignLanes";
+import timelineItems from "./data/timelineItems";
+import { assignLanes, getMonths } from "./utils/assignLanes";
 import { LaneArray } from "./types";
 
 function App() {

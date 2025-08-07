@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Pencil } from "lucide-react";
-import { getDateUTC } from "../../assignLanes";
+import { getDateUTC } from "../../utils/assignLanes";
 import { TimelineItem, MonthData } from "../../types";
 
 interface LaneProps {

@@ -1,4 +1,4 @@
-import { TimelineItem, MonthData } from "./types";
+import { TimelineItem, MonthData } from "../types";
 
 /**
  * Takes an array of items and assigns them to lanes based on start/end dates.
