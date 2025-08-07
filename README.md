@@ -6,6 +6,7 @@
 - The final result has a **clean and simple design**.
 - Using **TailwindCSS** made styling much easier and more consistent.
 - Using **TypeScript** brought more type safety and improved the development experience.
+- Visual duration indicators to help users quickly identify task complexity and schedule density.
 
 ---
 
@@ -25,6 +26,7 @@
 - I was inspired by some well-known timelines, like those used by **Google**.
 - I adapted the challenge to display the timeline **horizontally**, for better continuity and readability.
 - I chose a style with **rounded shapes** and a **modern font** to create a softer and more pleasant UI.
+- **Color psychology** was considered for the duration indicators - green for quick wins, red for attention-needed tasks.
 
 ---
 
@@ -33,6 +35,7 @@
 - I would create **unit tests** for each main component.
 - I would also implement integration tests with **usage scenarios** involving manipulation of the provided data (`timelineItems.ts`).
 - Scenarios like adding, editing, moving, and removing items from the timeline would be covered.
+- Visual regression tests to ensure the color coding system works correctly across different data sets.
 
 ---
 
@@ -63,5 +66,7 @@
 - Drag-and-drop to adjust event dates
 - Inline editing with persistent state
 - A more compact display for mobile devices
+- Filtering by duration (show only short/long tasks)
+- Search functionality to find specific tasks quickly
 
 Thanks for the opportunity to participate in this challenge! 🚀
