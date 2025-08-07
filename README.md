@@ -1,5 +1,11 @@
 # Timeline Component - Airtable Challenge
 
+## 🎥 Demo
+
+![Timeline Demo](./assets/demo.gif)
+
+*Interactive timeline component demonstration*
+
 ## ✅ What I liked about my implementation
 
 - I was able to define **small, reusable components** that are easy to maintain.
