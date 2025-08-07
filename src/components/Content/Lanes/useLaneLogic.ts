@@ -75,7 +75,7 @@ export const useLaneLogic = ({
 
   // Get duration label
   const getDurationLabel = (days: number) => {
-    if (days === 1) return "1 day";
+    if (days <= 1) return "1 day";
     if (days <= 7) return `${days} days`;
     if (days <= 30) return `${Math.ceil(days / 7)} weeks`;
     return `${Math.ceil(days / 30)} months`;
