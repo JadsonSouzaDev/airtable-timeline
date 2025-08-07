@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header: React.FC = () => {
+const Title: React.FC = () => {
   return (
     <div className="flex flex-col">
       <h1 className="text-2xl font-bold">Thanks for this test! {"\u2728"}</h1>
@@ -11,4 +11,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default Title;

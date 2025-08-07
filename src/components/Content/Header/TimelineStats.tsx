@@ -1,4 +1,4 @@
-import { LaneArray } from "../../types";
+import { LaneArray } from "../../../types";
 import { BarChart, Circle, Square } from "lucide-react";
 
 const TimelineStats: React.FC<{ lanes: LaneArray }> = ({ lanes }) => {
@@ -26,7 +26,7 @@ const TimelineStats: React.FC<{ lanes: LaneArray }> = ({ lanes }) => {
         </span>
         <span className="flex items-center gap-1">
           <Square />
-          {lanes.length} lanes
+          {lanes.length} lane{lanes.length > 1 ? "s" : ""}
         </span>
       </div>
     </div>

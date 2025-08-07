@@ -1,6 +1,6 @@
 import React from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { MonthData } from "../../types";
+import { MonthData } from "../../../types";
 
 interface MonthSelectorProps {
   selectedMonthIndex: number;

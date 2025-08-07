@@ -1,12 +1,6 @@
 import { useState, useEffect } from "react";
 import ReactDOM from "react-dom/client";
-import {
-  Header,
-  MonthSelector,
-  Lanes,
-  DaysHeader,
-  TimelineStats,
-} from "./components";
+import { Header, Lanes, Title } from "./components";
 import timelineItems from "./data/timelineItems";
 import { assignLanes, getMonths } from "./utils/assignLanes";
 import { LaneArray } from "./types";
@@ -41,16 +35,14 @@ function App() {
 
   return (
     <div className="flex flex-col gap-4 p-8 max-w-screen-lg mx-auto ">
-      <Header />
-      <div className="flex justify-between items-center pt-6">
-        <MonthSelector
-          selectedMonthIndex={selectedMonthIndex}
-          setSelectedMonthIndex={setSelectedMonthIndex}
-          months={months}
-        />
-        <TimelineStats lanes={lanes} />
-      </div>
-      <DaysHeader days={days} />
+      <Title />
+      <Header
+        selectedMonthIndex={selectedMonthIndex}
+        setSelectedMonthIndex={setSelectedMonthIndex}
+        months={months}
+        lanes={lanes}
+        days={days}
+      />
       <Lanes
         lanes={lanes}
         days={days.length}

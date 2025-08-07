@@ -1,6 +1,3 @@
-export { default as Header } from "./Header";
-export { default as MonthSelector } from "./Content/month-selector";
-export { default as Lane } from "./Content/lane";
-export { default as DaysHeader } from "./Content/days-header";
-export { default as Lanes } from "./Content/lanes";
-export { default as TimelineStats } from "./Content/timeline-stats";
+export { default as Header } from "./Content/Header";
+export { default as Lanes } from "./Content/Lanes";
+export { default as Title } from "./Title";

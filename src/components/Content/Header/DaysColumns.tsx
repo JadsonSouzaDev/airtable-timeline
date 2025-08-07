@@ -4,7 +4,7 @@ interface DaysHeaderProps {
   days: number[];
 }
 
-const DaysHeader: React.FC<DaysHeaderProps> = ({ days }) => {
+const DaysColumns: React.FC<DaysHeaderProps> = ({ days }) => {
   return (
     <div
       className="grid"
@@ -20,4 +20,4 @@ const DaysHeader: React.FC<DaysHeaderProps> = ({ days }) => {
   );
 };
 
-export default DaysHeader;
+export default DaysColumns;

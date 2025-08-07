@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Lane from "./lane";
-import { TimelineItem, MonthData, LaneArray } from "../../types";
+import Lane from "./Lane";
+import { TimelineItem, MonthData, LaneArray } from "../../../types";
 
 interface LanesProps {
   lanes: LaneArray;
