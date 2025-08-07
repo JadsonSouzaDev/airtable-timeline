@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Pencil } from "lucide-react";
-import { getDateUTC } from "../assignLanes";
-import { TimelineItem, MonthData } from "../types";
+import { getDateUTC } from "../../assignLanes";
+import { TimelineItem, MonthData } from "../../types";
 
 interface LaneProps {
   item: TimelineItem;
@@ -92,10 +92,10 @@ const Lane: React.FC<LaneProps> = ({
       onClick={() => setSelectedLane(item)}
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
-      className={`cursor-pointer border-2 flex flex-row items-center justify-center gap-4 px-2 h-10 relative ${
+      className={`cursor-pointer shadow-md border-2 flex flex-row items-center justify-center gap-4 px-2 h-10 relative ${
         isSelected
           ? "bg-blue-500 border-blue-500 text-white"
-          : "bg-white border-blue-300 text-blue-500 hover:bg-blue-50 hover:border-blue-100"
+          : "bg-[#F7F8F2] border-blue-300 text-blue-500 hover:bg-blue-50 hover:border-blue-100"
       } ${!startModified ? "rounded-s-lg" : ""} ${
         !endModified ? "rounded-e-lg" : ""
       }`}
